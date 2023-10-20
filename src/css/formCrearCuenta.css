@@ -1,0 +1,53 @@
+.Formulario {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.FormaColor {
+    background-color: #e4e9e3;
+    border: 2px solid rgb(2, 71, 11);
+    border-radius: 1vh;
+    padding: 3%;
+    text-align: center;
+}
+
+.Input {
+    border-Color: #9bbc9a;
+    font-size: 16px;
+}
+
+.Referencia {
+    background-color: #9bbc9a;
+}
+
+.Letra {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    color: white;
+}
+
+
+/*  */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.button {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #28a745;
+    background-color: transparent;
+    color: #28a745;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #28a745;
+    color: white;
+}
